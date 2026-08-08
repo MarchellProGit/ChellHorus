@@ -6,9 +6,6 @@
 ### Advanced Web Security & Vulnerability Audit Engine
 **Author: Marchell Adi Pratama • ChellSpace Security Labs**
 
-[![Downloads](https://img.shields.io/github/downloads/MarchellProGit/ChellHorus/total?style=for-the-badge&color=00F0FF&logo=github&logoColor=white)](https://github.com/MarchellProGit/ChellHorus/releases)
-[![Visitors](https://komarev.com/ghpvc/?username=MarchellProGit-ChellHorus&color=0080FF&style=for-the-badge&label=VISITORS)](https://github.com/MarchellProGit/ChellHorus)
-[![Repo Size](https://img.shields.io/github/repo-size/MarchellProGit/ChellHorus?style=for-the-badge&color=38BDF8)](https://github.com/MarchellProGit/ChellHorus)
 [![Build](https://img.shields.io/badge/Build-v1.0.0--PROD-00F0FF?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/MarchellProGit/ChellHorus/releases)
 [![Platform](https://img.shields.io/badge/Platform-Windows_10%2F11_x64-38BDF8?style=for-the-badge&logo=windows11&logoColor=white)](https://github.com/MarchellProGit/ChellHorus/releases)
 [![License](https://img.shields.io/badge/License-Proprietary_EULA-38BDF8?style=for-the-badge&logo=shield&logoColor=white)](#terms-of-service--license)
