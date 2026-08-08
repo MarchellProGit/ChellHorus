@@ -42,16 +42,32 @@ Engineered with asynchronous payload mutation, multi-threaded port scanning, sub
 
 ## Key Features
 
-- 🕵️ **Reconnaissance & Intelligence**: Active banner grabbing, security header validation, DNS record lookup (`A`, `MX`, `NS`, `TXT`, `SOA`, `AAAA`), and domain structure extraction.
-- 🌐 **Subdomain Brute-Forcing**: High-concurrency threaded subdomain discovery using optimized DNS resolvers.
-- ⚡ **Port & Service Scanner**: Multi-threaded socket scanner mapping open ports, active services, and banner responses across standard ports.
-- 💻 **Tech Stack Fingerprinting**: Automated CMS, web server, and backend framework detection (WordPress, Django, Laravel, React, Vue, Nginx, Apache).
-- 📂 **Content & Sensitive Asset Discovery**: Automated indexing of `robots.txt`, `sitemap.xml`, exposed `.git`/`.env` repositories, administrative panels, and API endpoints.
-- 🛡️ **Payload Fuzzer & Vulnerability Matrix**: Advanced fuzzer detecting SQL Injection, Reflected XSS, Local File Inclusion (LFI), Command Injection, SSRF, and SSTI with intelligent payload mutations.
-- 🔒 **SSL/TLS Security Audit**: Comprehensive certificate expiration tracking, cipher strength evaluation, and protocol compliance checking.
-- 📊 **Real-Time Visual Analytics**: Embedded Matplotlib vulnerability breakdown charts, risk metrics gauge (CVSS 0.0 - 10.0), and execution timeline analytics.
-- 📄 **Multi-Format Report Generator**: Automated PDF audit report synthesis (ReportLab), JSON data exports, and CSV table extractions.
-- 🗄️ **Persistent Database Logging**: Local SQLite database storage supporting historical scan comparison, search, and audit trail retrieval.
+- **[ ✦ ] Reconnaissance & Intelligence**: Active banner grabbing, security header validation, DNS record lookup (`A`, `MX`, `NS`, `TXT`, `SOA`, `AAAA`), and domain structure extraction.
+- **[ ✦ ] Subdomain Brute-Forcing**: High-concurrency threaded subdomain discovery using optimized DNS resolvers.
+- **[ ✦ ] Port & Service Scanner**: Multi-threaded socket scanner mapping open ports, active services, and banner responses across standard ports.
+- **[ ✦ ] Tech Stack Fingerprinting**: Automated CMS, web server, and backend framework detection (WordPress, Django, Laravel, React, Vue, Nginx, Apache).
+- **[ ✦ ] Content & Asset Discovery**: Automated indexing of `robots.txt`, `sitemap.xml`, exposed `.git`/`.env` repositories, and API endpoints.
+- **[ ✦ ] Payload Fuzzer & Vulnerability Matrix**: Advanced fuzzer detecting SQL Injection, XSS, LFI, Command Injection, SSRF, and SSTI with intelligent payload mutations.
+- **[ ✦ ] SSL/TLS Security Audit**: Comprehensive certificate expiration tracking, cipher strength evaluation, and protocol compliance checking.
+- **[ ✦ ] Real-Time Visual Analytics**: Embedded Matplotlib vulnerability breakdown charts, risk metrics gauge (CVSS 0.0 - 10.0), and execution timeline analytics.
+- **[ ✦ ] Multi-Format Report Generator**: Automated PDF audit report synthesis (ReportLab), JSON data exports, and CSV table extractions.
+
+---
+
+## System Architecture
+
+```text
++-----------------------+      +------------------------+      +------------------------+
+| Audit Console         | ---> | Payload Fuzzer &       | ---> | Target Infrastructure  |
+| (ChellHorus.exe)      |      | Concurrency Engine     |      | (Web / API / Network)  |
++-----------------------+      +------------------------+      +------------------------+
+            |                               |
+            v                               v
++-----------------------+      +------------------------+
+| License Verification  |      | Analytics & Reporting  |
+| (Supabase Cloud API)  |      | (PDF / JSON / SQLite)  |
++-----------------------+      +------------------------+
+```
 
 ---
 
